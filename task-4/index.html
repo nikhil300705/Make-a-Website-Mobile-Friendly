@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advanced Responsive Site</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">TechNova</h1>
+      <nav id="nav-menu" class="nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="menu-toggle" class="menu-toggle">☰</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Innovate. Build. Grow.</h2>
+      <p>Explore our tools and platforms to scale your business globally.</p>
+      <a href="#" class="cta-btn">Get Started</a>
+    </div>
+  </section>
+
+  <section class="features container">
+    <div class="feature-card">🌐 <h3>Global Reach</h3><p>Expand to new markets faster with our platform.</p></div>
+    <div class="feature-card">🔐 <h3>Secure</h3><p>Military-grade encryption for all your data.</p></div>
+    <div class="feature-card">⚙️ <h3>Customizable</h3><p>Highly flexible and developer-friendly tools.</p></div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>Company</h4>
+        <ul><li>About</li><li>Careers</li><li>Press</li></ul>
+      </div>
+      <div>
+        <h4>Support</h4>
+        <ul><li>Docs</li><li>API</li><li>Contact</li></ul>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <ul><li>Privacy</li><li>Terms</li><li>Cookies</li></ul>
+      </div>
+    </div>
+    <p class="copyright">&copy; 2025 TechNova</p>
+  </footer>
+
+  <script>
+    document.getElementById('menu-toggle').addEventListener('click', () => {
+      document.getElementById('nav-menu').classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
